@@ -1,0 +1,192 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7e7f83;
+    font-family: 'Nosifer', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav,
+header,
+section,
+footer {
+    background-color: #d9c5b2;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 50%;
+    padding: 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Mobile Styles */
+
+#container {
+    margin: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #f3f3f4;
+    margin: 10px 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #d9c5b2;
+    border-bottom: 4px solid #34312d;
+}
+
+header {
+    padding: 20px;
+}
+
+section {
+    margin: 10px 0;
+    padding: 10px;
+
+}
+
+#multi_col {
+    background-color: #d9c5b2;
+}
+
+.col {
+    margin: 10px 0;
+    padding: 10xp;
+}
+
+#lower_sec {
+    background-color: #34312d;
+    padding: 10px;
+}
+
+.columns {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 4px solid #000;
+}
+
+.columns img {
+    width: 75%;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Table Styles */
+
+@media (min-width: 768px) {
+
+    nav {
+        padding: 20px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 150px;
+        border-radius: 10px;
+    }
+
+    #multi_col {
+        display: flex;
+    }
+
+    .col {
+        width: 50%;
+    }
+
+    .col_text {
+        margin-top: 60px;
+    }
+
+    .columns img {
+        width: 40%;
+    }
+    
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    nav li a {
+        background-color: #f3f3f4;
+    }
+
+    nav li a:hover {
+        border-bottom: 4px solid #7e7f83;
+    }
+
+    #container {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    #lower_sec {
+        display: flex;
+    }
+
+    .columns img {
+        width: 75%;
+    }
+
+
+}
