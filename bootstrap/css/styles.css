@@ -7,6 +7,14 @@ body {
     background-color: #ffc300;
 }
 
+.navbar-nav {
+    display: inline;
+}
+
+.nav {
+    color: #000814;
+}
+
 #header_img {
     background-image: url(../images/ev7.jpg);
     background-size: cover;
@@ -15,4 +23,29 @@ body {
 
 #header {
     width: 75%;
+}
+
+.card {
+    padding: 0%;
+}
+
+.dropdown-menu-dark {
+    color: #000;
+}
+
+.tooltip {
+    text-align: center;
+    color: #ffc300;
+}
+
+.modal {
+    color: bisque;
+}
+
+.breadcrumb {
+    align-items: center;
+}
+
+.btn {
+    color: gray;
 }
