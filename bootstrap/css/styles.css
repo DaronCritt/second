@@ -1,0 +1,18 @@
+body {
+    background-color: #000814;
+    color: #ffc300;
+}
+
+.navbar {
+    background-color: #ffc300;
+}
+
+#header_img {
+    background-image: url(../images/ev7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#header {
+    width: 75%;
+}
