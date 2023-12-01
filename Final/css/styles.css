@@ -44,6 +44,14 @@
     justify-content: flex-start;
     align-items: center;
 }
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
 /* #masthead-light {
     background-image: url(../images/chatt-sil-light-300ppi.png);
     background-size: cover;
